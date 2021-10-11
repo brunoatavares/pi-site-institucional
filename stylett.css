@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans';
+}
+
+.header {
+    background-color: black;
+    border:darkred 5px solid;   
+    height: 100px;
+    
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+   /* background-color: black; */
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .navbar {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    
+}
+.header h1 {
+    color:tomato;
+    
+}
+.navbar .active {
+    font-weight: bolder;
+}
+.header li {
+    color: white;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+}
+
+.banner{
+    height: 450px;
+    background-image: url(https://www.sitiodamata.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/t/o/tomate-cereja-solanum-lycopersicum-1..jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.message {
+    color: black;
+    width: 10%;
+    margin-right: 250px;
+    font-size: 25px;
+}
+
+.proposito .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.message span{
+    font-weight: bolder;
+}
+
+.proposito {
+    height: 450px;
+    background-color: #e5e5e5;
+}
+
+.proposito .container .mvv div img {
+    height: 100px;
+    width: 100px;
+}
+
+.proposito .container .mvv {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.proposito .container .mvv div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    text-align: center;
+}
+.proposito .container h2{
+    color: tomato;
+    background-color: white;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.proposito .container .mvv div h3{
+    color: tomato;
+    font-weight: bolder;
+    margin: 25px 0;
+}
+
+.footer{
+    background-color: darkred;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    color: white
+}
+
+
+.banner .form_login{
+    background-color: #e5e5e5;
+    height: 400px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+.banner .form_login div {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner .form_login h2 {
+    color: tomato;
+}
+
+.banner .form_login span{
+    color: tomato;
+}
+
+.banner .form_login div input {
+    border: 2px solid tomato;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.banner .form_login button {
+    background-color: tomato;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+
+
+.caixatexto4{
+    background-color: #91ad8e;
+    border: 3px solid rgb(173, 230, 173);
+    height: 100px;
+    text-align: left;
+    flex-direction: row;  
+    margin: 8px;  
+    text-align: center;
+    border-radius: 30px;
+}
